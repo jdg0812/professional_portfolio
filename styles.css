@@ -1,0 +1,123 @@
+html {
+    font-family: "Signika", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "GRAD" 0;
+    background-color: #ebf2fa;
+
+}
+
+body {
+    margin: 0;
+
+}
+
+h1 {
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    background-color: #427aa1;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    background-color: #427aa1;
+}
+
+.navbar li {
+    display: inline;
+    /*google font - signika */
+    font-family: "Signika", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "GRAD" 0;
+
+    font-size: 18px;
+    background-color: #427aa1;
+    color: #ebf2fa;
+
+}
+
+.navbar a {
+    /*google font - signika */
+    font-family: "Signika", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "GRAD" 0;
+
+    text-decoration: none;
+    background-color: #427aa1;
+    color: #ebf2fa;
+
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    gap: 50px;
+
+}
+
+.card.introduction {
+    display: flex;
+    flex-direction: column;
+    color: #16425b;
+    text-align: center;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+
+}
+
+.introduction a {
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.introduction a img {
+    width: 50px;
+    height: 50px;
+    border-radius: 0%;
+
+}
+
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+footer {
+    background-color: #427aa1;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+
+}
