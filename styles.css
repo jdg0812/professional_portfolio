@@ -31,10 +31,12 @@ h1 {
     display: flex;
     gap: 30px;
     background-color: #427aa1;
+    justify-content: space-between;
+    list-style: none;
 }
 
 .navbar li {
-    display: inline;
+    /* display: inline; */
     /*google font - signika */
     font-family: "Signika", serif;
     font-optical-sizing: auto;
@@ -60,6 +62,12 @@ h1 {
     background-color: #427aa1;
     color: #ebf2fa;
 
+
+}
+
+.contact {
+    margin-left: auto;
+    padding-right: 20px;
 
 }
 
@@ -120,4 +128,29 @@ footer {
     padding: 10px;
     text-align: center;
 
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin: 100px;
+
+}
+
+.timeline {
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: #16425b;
+    border-radius: 50%;
 }
